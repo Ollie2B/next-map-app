@@ -21,6 +21,6 @@ export default defineSchema({
   })
     .index("by_map", ["mapId"])
     .index("by_user_org", ["userId", "orgId"])
-    .index("by_user_board", ["userId", "mapId"])
-    .index("by_user_board_org", ["userId", "mapId", "orgId"])
+    .index("by_user_map", ["userId", "mapId"])
+    .index("by_user_map_org", ["userId", "mapId", "orgId"])
 });
