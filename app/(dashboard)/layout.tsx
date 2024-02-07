@@ -7,7 +7,7 @@ interface DashboardLayoutProps {
 };
 
 const DashboardLayout = ({
-  children
+  children,
 }: DashboardLayoutProps) => {
   return (
     <main className="h-full">
